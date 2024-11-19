@@ -1,0 +1,44 @@
+:root {
+  --clr-gray-950: #030712;
+  --clr-gray-900: #111827;
+  --clr-gray-50: #f9fafb;
+  --clr-orange-1: #fed81d;
+  --clr-orange: #f7ad2b;
+}
+
+/* Reset css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+/* Reset css end*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--clr-gray-50);
+  color: var(--clr-gray-950);
+  font-family: "Inter", serif;
+}
